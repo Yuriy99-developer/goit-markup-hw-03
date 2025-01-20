@@ -6,7 +6,7 @@ body {
 
 .header {
     display: flex;
-    border: 1px tomato solid;
+    border: 1px black solid;
 }
 
 .header-nav {
@@ -15,19 +15,19 @@ body {
 
 .nav-list {
     display: flex;
+    margin-top: 24px;
+    margin-left: 76px;
+    gap: 0px 40px;
 }
 
-.nav-item {
-    margin: 24px 0px;
-}
+.nav-item {}
 
 .contact-list {
     display: flex;
+    margin-top: 24px;
 }
 
-.contact-item {
-    margin: 50px;
-}
+.contact-item {}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -37,7 +37,9 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin: 24px 76px 24px 156px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 156px;
 }
 
 .header-logo-highlight {
@@ -90,6 +92,8 @@ body {
 .hero {
     background: #2e2f42;
     text-align: center;
+    padding: 472px 188px;
+    border: 1px black solid;
 }
 
 .hero-title {
@@ -118,6 +122,19 @@ body {
 
 .hero-button:focus {
     background-color: #404bbf;
+}
+
+.advantages {
+    padding: 120px 156px;
+}
+
+.advantages-title {
+    text-align: center;
+}
+
+.advantages-list {
+    display: flex;
+
 }
 
 .advantages-subtitle {
