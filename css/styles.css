@@ -4,6 +4,31 @@ body {
     background-color: #ffffff;
 }
 
+.header {
+    display: flex;
+    border: 1px tomato solid;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    margin: 24px 0px;
+}
+
+.contact-list {
+    display: flex;
+}
+
+.contact-item {
+    margin: 50px;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -12,6 +37,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin: 24px 76px 24px 156px;
 }
 
 .header-logo-highlight {
