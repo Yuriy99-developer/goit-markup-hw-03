@@ -8,6 +8,12 @@ img {
     display: block;
 }
 
+a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -18,8 +24,8 @@ img {
 
 .container {
     width: 1158px;
-    margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -36,17 +42,11 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    text-decoration: none;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
-}
-
-.nav-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .header-logo-highlight {
@@ -64,7 +64,8 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover {
@@ -76,7 +77,8 @@ img {
 }
 
 .header-address {
-    font-style: normal;
+    display: flex;
+    align-items: center;
 }
 
 .contact-list {
@@ -92,7 +94,6 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
 }
 
 .contact-link:hover {
@@ -119,6 +120,7 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     max-width: 496px;
+    margin: 0 auto;
 }
 
 .hero-button {
@@ -135,6 +137,7 @@ img {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .hero-button:hover {
@@ -299,7 +302,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 16px;
