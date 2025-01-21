@@ -44,7 +44,7 @@ img {
 }
 
 .nav-item {
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .header-logo-highlight {
@@ -173,7 +173,7 @@ img {
 }
 
 .advantages-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantages-subtitle {
@@ -215,7 +215,7 @@ img {
 
 .team-member {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
