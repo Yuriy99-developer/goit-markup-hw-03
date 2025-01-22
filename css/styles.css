@@ -174,9 +174,7 @@ li {
     gap: 24px;
 }
 
-.advantages-item {
-    flex-basis: calc((100% - 72px) / 4);
-}
+.advantages-item {}
 
 .advantages-subtitle {
     font-weight: 500;
