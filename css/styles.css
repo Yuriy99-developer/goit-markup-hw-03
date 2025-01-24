@@ -18,6 +18,10 @@ p {
     margin: 0;
 }
 
+a {
+    display: block;
+}
+
 a,
 li {
     text-decoration: none;
@@ -30,9 +34,7 @@ ul {
 }
 
 .header {
-    display: flex;
     border-bottom: 1px solid #e7e9fc;
-    padding: 24px 156px;
 }
 
 .header-container {
